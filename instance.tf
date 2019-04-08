@@ -5,7 +5,7 @@ resource "google_compute_instance" "default" {
   tags          = ["ssh","http"]
   boot_disk {
     initialize_params {
-      image     =  "centos-7-v20180129"     
+      image     =  "ubuntu-1804-bionic-v20190404"     
     }
   }
 labels {
